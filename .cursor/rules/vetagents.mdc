@@ -1,0 +1,15 @@
+---
+description: Antes de alterar o VetAgents, leia o contexto persistente do produto.
+alwaysApply: true
+---
+
+Leia `AGENTS.md` antes de mudar comportamento, dados ou integrações. Consulte o documento correspondente:
+
+- Produto e critérios: `docs/PRODUCT_SPEC.md`
+- Arquitetura e segurança: `docs/ARCHITECTURE.md`
+- Identidade visual: `docs/DESIGN_SYSTEM.md`
+- O que falta: `docs/IMPLEMENTATION_PLAN.md` e `docs/STATUS.md`
+- Conectores: `docs/INTEGRATIONS.md`
+- Decisões: `docs/DECISIONS.md`
+
+Não descreva uma chamada externa como concluída sem confirmação do provedor. Não misture dados de demonstração com resultados reais. Não registre em `docs/STATUS.md` algo que não foi implementado ou executado.

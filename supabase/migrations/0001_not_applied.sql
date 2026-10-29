@@ -1,0 +1,7 @@
+-- NOT APPLIED.
+-- O runtime deste MVP é SQLite, definido em lib/db/schema.ts.
+-- Este arquivo não foi executado em nenhum projeto Supabase.
+-- O isolamento atual é feito no servidor: toda leitura e escrita operacional
+-- filtra por clinic_id e a sessão só é aceita se o usuário for membro da clínica.
+-- Uma migração Postgres com RLS deve ser escrita e aplicada só quando houver
+-- um projeto Supabase configurado. Não trate este comentário como política ativa.
