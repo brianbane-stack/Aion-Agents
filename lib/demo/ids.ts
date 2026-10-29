@@ -1,0 +1,53 @@
+export const IDS = {
+  horizonteOrg: "org_horizonte",
+  horizonte: "cli_horizonte",
+  helena: "usr_helena",
+  opera: "usr_opera",
+  leitura: "usr_leitura",
+  valeOrg: "org_vale",
+  vale: "cli_vale",
+  ricardo: "usr_ricardo",
+  carlosReview: "rev_h_carlos",
+  mariaReview: "rev_h_maria",
+  anaReview: "rev_h_ana",
+  joaoReview: "rev_h_joao",
+  beatrizReview: "rev_h_beatriz",
+  pauloReview: "rev_h_paulo",
+  valeReview: "rev_vale_milo",
+  followWorkflow: "wf_h_follow",
+  reviewWorkflow: "wf_h_review",
+  replyWorkflow: "wf_h_reply",
+  rita: "ctc_rita",
+  eduardo: "ctc_eduardo",
+  camila: "ctc_camila",
+  lucia: "ctc_lucia",
+  ritaMessage: "msg_rita",
+  eduardoMessage: "msg_eduardo",
+} as const;
+
+export const DEMO_ACCOUNTS = [
+  {
+    email: "helena@horizonte.demo",
+    role: "Responsável",
+    clinic: "Clínica Horizonte Animal",
+    note: "Operação já configurada",
+  },
+  {
+    email: "opera@horizonte.demo",
+    role: "Operação",
+    clinic: "Clínica Horizonte Animal",
+    note: "Prepara, não aprova",
+  },
+  {
+    email: "leitura@horizonte.demo",
+    role: "Leitura",
+    clinic: "Clínica Horizonte Animal",
+    note: "Somente consulta",
+  },
+  {
+    email: "ricardo@vale.demo",
+    role: "Responsável",
+    clinic: "Clínica Vale Felino",
+    note: "Configuração inicial pendente",
+  },
+] as const;
